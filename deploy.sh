@@ -12,9 +12,9 @@ MASTER_DIR=$PWD
 PAGES_DIR=$PWD/_site
 # Let CI servers with a GH_TOKEN variable do their work
 if [[ "$GH_TOKEN" != "" ]]; then
-  GH_ORIGIN=https://driftyco:$GH_TOKEN@github.com/driftyco/ionic-site 
+  GH_ORIGIN=https://Samurais:$GH_TOKEN@github.com/arrking/com.arrking.www 
 else
-  GH_ORIGIN=git@github.com:driftyco/ionic-site.git
+  GH_ORIGIN=git@github.com:arrking/com.arrking.www.git
 fi
 
 # delete gh-pages branch if it exists
