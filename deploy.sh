@@ -12,9 +12,9 @@ MASTER_DIR=$PWD
 PAGES_DIR=$PWD/_site
 # Let CI servers with a GH_TOKEN variable do their work
 if [[ "$GH_TOKEN" != "" ]]; then
-  GH_ORIGIN=https://Samurais:$GH_TOKEN@github.com/arrking/com.arrking.www 
+  GH_ORIGIN=https://arrking:$GH_TOKEN@github.com/arrking-site.git
 else
-  GH_ORIGIN=git@github.com:arrking/com.arrking.www.git
+  GH_ORIGIN=git@github.com:arrking/arrking-site.git
 fi
 
 # delete gh-pages branch if it exists
