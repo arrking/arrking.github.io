@@ -72,15 +72,15 @@ body_css: "home"
       }
     }
   });
-  $.ajax({
-    dataType: "jsonp",
-    url: "https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=ionicframework",
-    success: function(data){
-      if(data && data.length && data[0].formatted_followers_count){
-        $("#tw-followers").html(digits(data[0].formatted_followers_count));
-      }
-    }
-  });
+  // $.ajax({
+  //   dataType: "jsonp",
+  //   url: "https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=ionicframework",
+  //   success: function(data){
+  //     if(data && data.length && data[0].formatted_followers_count){
+  //       $("#tw-followers").html(digits(data[0].formatted_followers_count));
+  //     }
+  //   }
+  // });
 </script>
 
 <div id="learn-more">
