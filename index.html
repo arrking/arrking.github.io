@@ -4,6 +4,21 @@ title: "Ionic: Advanced HTML5 Hybrid Mobile App Framework"
 body_css: "home"
 ---
 
+<!--  ARRKING QR COde popup -->
+<div class="modal fade" id="qrCodeModal" tabindex="-1" role="dialog" aria-labelledby="qrCodeModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">关闭</span></button>
+        <h4 class="modal-title">金矢科技 微信公众号</h4>
+      </div>
+      <div class="modal-body">
+        <img id="arrkingQRCode" src="img/arrking_wechat_gzh.jpg">
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="primary-row horizontal-gradient">
 
   <div class="container">
@@ -16,12 +31,12 @@ body_css: "home"
           通过微信传递您的一切服务到客户，用最快，最省钱，最见效的方式！
         </h2>
         <p class="btn-row">
-          <a id="repo-download" class="btn btn-primary btn-download desktop-btn" onclick="javascript:qrCodeModal()" href="#" alt="金矢科技微信公众号">关注金矢科技</a>
+          <a id="repo-download" class="btn btn-primary btn-download desktop-btn" onclick="javascript:$('#qrCodeModal').modal('show');" href="#" alt="金矢科技微信公众号">金矢科技公众号</a>
           <a class="btn btn-primary btn-get-started desktop-btn" href="/getting-started/">了解更多</a>
           <a class="btn btn-primary btn-download mobile-btn" href="/showcase/">成功案例</a>
         </p>
         <p class="version-text">
-          金矢科技独立自主开发的应用开发，运行时平台 －－ 伏魔塔，大幅度提升上线速度，功能实现模块化，用户体验极致化。 
+          金矢科技独立自主开发的应用制作，运行时平台 －－ 伏魔塔，大幅度提升上线速度，功能实现模块化，用户体验极致化。 
         </p>
       </div>
       <div class="col-sm-6 feature-img">
@@ -81,6 +96,7 @@ body_css: "home"
   //     }
   //   }
   // });
+  //
 </script>
 
 <div id="learn-more">
