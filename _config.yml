@@ -1,7 +1,7 @@
 # Site Configs
-name: Ionic Framework
-description: The official Ionic Framework blog
-url: http://ionicframework.com/blog
+name: 金矢科技
+description: 
+url: http://arrking.com
 markdown: redcarpet
 highlighter: pygments
 permalink: /blog/:title
