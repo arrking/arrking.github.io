@@ -4763,13 +4763,13 @@ h1 + h2 + p {
 .home .img-performance {
   background-image: url("/img/performance.png"); }
 .home .img-angular {
-  background-image: url("/img/angular-ionic.png"); }
+  background-image: url("/img/lock-icon.png"); }
 .home .img-native {
   background-image: url("/img/native.png"); }
 .home .img-design {
   background-image: url("/img/design.png"); }
 .home .img-cli {
-  background-image: url("/img/cli.png"); }
+  background-image: url("/img/enhance-flow.png"); }
 .home .img-learn {
   background-image: url("/img/learn.png"); }
 .home .img-nerds {
@@ -4778,13 +4778,13 @@ h1 + h2 + p {
   .home .feature-row.img-performance {
     background-image: url("/img/performance@2x.png"); }
   .home .feature-row.img-angular {
-    background-image: url("/img/angular-ionic@2x.png"); }
+    background-image: url("/img/lock-icon@2x.png"); }
   .home .feature-row.img-native {
     background-image: url("/img/native@2x.png"); }
   .home .feature-row.img-design {
     background-image: url("/img/design@2x.png"); }
   .home .feature-row.img-cli {
-    background-image: url("/img/cli@2x.png"); }
+    background-image: url("/img/enhance-flow@2x.png"); }
   .home .feature-row.img-learn {
     background-image: url("/img/learn@2x.png"); }
   .home .feature-row.img-nerds {
