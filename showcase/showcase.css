@@ -11,8 +11,8 @@
 .showcase-header {
   height: 50px;
   margin-bottom: 50px;
-  background: url(/img/showcase/showcase-ionic-logo.png) no-repeat top center;
-  background-size: 131px 50px;
+  background: url(/img/showcase/showcase-logo.png) no-repeat top center;
+  background-size: 50px 50px;
 }
 
 .featured-link {
