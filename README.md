@@ -1,49 +1,31 @@
-ionic-site
-==========
+# 北京金矢科技 官方网站
 
-Repo for the ionicframework.com site
+[http://www.arrking.com](http://www.arrking.com)
 
+Built on  [ionic site](https://github.com/driftyco/ionic-site).
 
-gulp watch uses LiveReload. You may have to up your max file limit with the following command:
+## Hosting Solution
 
-    ulimit -n 5000
+* GitHub Pages
 
+https://pages.github.com/
 
-## Local Build
+https://help.github.com/categories/github-pages-basics/
 
-    jekyll serve -w
+* jekyllrb
 
-    npm install
-    
-    sudo npm install -g gulp
+http://jekyllrb.com/
 
-    gulp watch
+## Build / Dev
 
-    http://localhost:4000/
+```
+jekyll serve -w
 
+npm install
 
-## Community
+sudo npm install -g gulp
 
-* Follow [@ionicframework on Twitter](https://twitter.com/ionicframework).
-* Subscribe to the [Ionic Newsletter](http://ionicframework.com/subscribe/).
-* Have a question that's not a feature request or bug report? [Discuss on the Ionic Forum](http://forum.ionicframework.com/).
-* Read our [Blog](http://ionicframework.com/blog/).
-* Have a feature request or find a bug? [Submit an issue](https://github.com/driftyco/ionic/issues).
+gulp watch
 
-
-## Authors
-
-**Max Lynch**
-
-+ <https://twitter.com/maxlynch>
-+ <https://github.com/mlynch>
-
-**Ben Sperry**
-
-+ <https://twitter.com/benjsperry>
-+ <https://github.com/bensperry>
-
-**Adam Bradley**
-
-+ <https://twitter.com/adamdbradley>
-+ <https://github.com/adamdbradley>
+http://localhost:4000/
+```
