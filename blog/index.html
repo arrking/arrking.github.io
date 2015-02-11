@@ -30,7 +30,7 @@ title: 博客
       <!--<div class="fb-share-button" data-href="http://ionicframework.com{{post.url}}" data-type="button_count"></div>-->
     <!-- </div> -->
 
-    <time class="post-time">By {{post.author}} on {{post.date | date: "%B %d, %Y" }}</time>
+    <time class="post-time">作者 {{post.author}} 于 {{post.date | date: "%B %d, %Y" }}</time>
   </div>
   {% if post.content contains "<!-- more -->" %}
     {{post.content | split:"<!-- more -->" | first % }}
@@ -49,15 +49,15 @@ title: 博客
     <div class="pull-left">
       <!--<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>-->
       {% if paginator.next_page %}
-        <a href="/blog/page{{ paginator.next_page }}/" class="next">Older</a>
+        <a href="/blog/page{{ paginator.next_page }}/" class="next">更早的文章</a>
       {% endif %}
     </div>
     <div class="pull-right">
       {% if paginator.previous_page == 1 %}
-        <a href="/blog/" class="previous">Newer</a>
+        <a href="/blog/" class="previous">上一页</a>
       {% else %}
         {% if paginator.previous_page %}
-          <a href="/blog/page{{ paginator.previous_page }}/" class="previous">Newer</a>
+          <a href="/blog/page{{ paginator.previous_page }}/" class="previous">上一页</a>
         {% endif %}
       {% endif %}
     </div>
