@@ -9,7 +9,7 @@ paginate: 5
 paginate_path: "blog/page:num"
 
 # Default news if the page didnt enter news
-news: Check out our <a href="/docs/guide/">Guide</a>, which covers all the basics of setting up.
+news: 我们的DevOps团队，可以满足不同行业的客户，用扎实的技术基础，一流的服务精神，用心帮助您解决问题。
 exclude: [node_modules, scss]
 
 # Latest Version Config
