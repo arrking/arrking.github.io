@@ -1,7 +1,7 @@
 # Site Configs
 name: 金矢科技
 description: 
-url: http://arrking.com
+url: http://www.arrking.com
 markdown: redcarpet
 highlighter: pygments
 permalink: /blog/:title
